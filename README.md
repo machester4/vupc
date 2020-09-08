@@ -2,7 +2,7 @@
 
 
 
-<img src="file:///Users/michaelpintos/Downloads/Webp.net-resizeimage%20(1)%20(1).png" title="" alt="Webp.net-resizeimage (1) (1).png" data-align="center">
+<img src="https://github.com//machester4/vupc/blob/master/logo.png?raw=true" title="" alt="logo" data-align="center">
 
 # **VUPC**
 
