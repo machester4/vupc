@@ -19,21 +19,19 @@
 * [Inspiration](#inspiration)
 * [Contact](#contact)
   
-  ## General info
+## General info
   
 VUPC is an open source screen sharing + remote collaboration application for Mac OS, Linux, Windows. You can share your desktop with someone else while letting them share your mouse and keyboard remotely. Right now it is not as good as commercial alternatives, mostly because this initial prototype was written in 3 days. [The big difference is that you can send PRs to make VUPC better](https://github.com/machester4/vupc)
   
-  ## Screenshots
-  
+## Screenshots
   ![Example screenshot](https://github.com/machester4/vupc/blob/master/screenshot.png?raw=true)
   
-  ## Technologies
+## Technologies
 * Electron - version 9.0
 * VueJS - version 2.6
 * NodeJS - version 13.9
   
-  ## Setup
-  
+## Setup
   You can download the binaries already compiled, or you can compile a local version yourself.
   
   ## Building the app
