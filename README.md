@@ -44,7 +44,7 @@
   - Common - NodeJS & Yarn 
   - MacOS - XCode
   - Windows - Microsoft visual studio build tools 2017
-  - Linux - 
+  - Linux - libxtst & libpng `sudo apt-get install libxtst-dev libpng++-dev`
   
   
   
