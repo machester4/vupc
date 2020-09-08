@@ -43,7 +43,7 @@
    **Requirements**
   - Common - NodeJS & Yarn 
   - MacOS - XCode
-  - Windows - 
+  - Windows - Microsoft visual studio build tools 2017
   - Linux - 
   
   
