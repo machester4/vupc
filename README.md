@@ -6,7 +6,7 @@
 
 # **VUPC**
 
-> WebRTC screensharing Electron app for Mac OS - Linux - Windows
+> WebRTC screensharing Electron app for all desktop platforms
 
 ## Table of contents
 
