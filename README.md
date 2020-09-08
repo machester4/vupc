@@ -41,6 +41,7 @@
   ## Building the app
   
    **Requirements**
+  - Common - NodeJS & Yarn 
   - MacOS - XCode
   - Windows - 
   - Linux - 
