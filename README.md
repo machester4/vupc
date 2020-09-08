@@ -41,9 +41,9 @@
   ## Building the app
   
    **Requirements**
-  - Common - NodeJS & Yarn 
-  - MacOS - XCode
-  - Windows - Microsoft visual studio build tools 2017
+  - Common - [NodeJS](https://nodejs.org/en/) & [Yarn](https://classic.yarnpkg.com/en/docs/install) 
+  - MacOS - [XCode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)
+  - Windows - [Microsoft visual studio build tools 2017](https://chocolatey.org/packages/visualstudio2017buildtools)
   - Linux - libxtst & libpng `sudo apt-get install libxtst-dev libpng++-dev`
   
   
@@ -92,11 +92,11 @@
   
   ## Inspiration
   
-  This project is inspired by [ScreenCat]([GitHub - maxogden/screencat: :cat2: webrtc screensharing electron app for mac os (Alpha)](https://github.com/maxogden/screencat)) which was discontinued a long time ago.
+  This project is inspired by [ScreenCat](https://github.com/maxogden/screencat) which was discontinued a long time ago.
   
   ## Contact
   
-  Created by [@machester4]([machester4 (Michael Pintos) · GitHub](https://github.com/machester4)) - feel free to contact me!
+  Created by [@machester4 (Michael Pintos)](https://github.com/machester4) - feel free to contact me!
 
 ### MIT License
 
