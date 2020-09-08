@@ -21,7 +21,12 @@ VUPC is an open source screen sharing + remote collaboration application for Mac
   
 ## Screenshots
   ![Example screenshot](https://github.com/machester4/vupc/blob/master/screenshot.png?raw=true)
-  
+
+## Demo
+You can **download** the demo application which may **not be up to date with the latest changes in master**. This application uses our server for signaling.
+[MacOS](https://drive.google.com/file/d/15eohUZNS0Vgd9YpBUTsd21IuKtdqriZD/view?usp=sharing)
+[Linux](https://drive.google.com/file/d/1iS4YPbWAH87yQgRc7nIkajDAG2t9LWo2/view?usp=sharing)
+
 ## Technologies
 * Electron - version 9.0
 * VueJS - version 2.6
