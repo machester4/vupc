@@ -1,7 +1,3 @@
-# 
-
-
-
 <img src="https://github.com//machester4/vupc/blob/master/logo.png?raw=true" title="" alt="logo" data-align="center">
 
 # **VUPC**
@@ -32,7 +28,7 @@ VUPC is an open source screen sharing + remote collaboration application for Mac
 * NodeJS - version 13.9
   
 ## Setup
-  You can download the binaries already compiled, or you can compile a local version yourself.
+You can download the binaries already compiled, or you can compile a local version yourself.
   
   ## Building the app
   
@@ -73,18 +69,18 @@ VUPC is an open source screen sharing + remote collaboration application for Mac
   
   
   
-  ## Features
+## Features
   
-  List of features ready and TODOs for future development
+List of features ready and TODOs for future development
 * Share screen
 * Mouse click event in host
   To-do list:
 * Keyboard events in host
 * Your ideas :)
   
-  ## Status
+## Status
   
-  VUPC is currently **ALPHA STATUS** and is intended for developers/early adopters. Check out the Issues to get involved. VUPC is a volunteer run project, your contributions and improvements are welcome!
+VUPC is currently **ALPHA STATUS** and is intended for developers/early adopters. Check out the Issues to get involved. VUPC is a volunteer run project, your contributions and improvements are welcome!
   
   ## Inspiration
   
