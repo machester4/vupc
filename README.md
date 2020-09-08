@@ -27,7 +27,7 @@
   
   ## Screenshots
   
-  ![Example screenshot](/Users/michaelpintos/Desktop/Captura%20de%20Pantalla%202020-09-08%20a%20la(s)%2009.48.43.png)
+  ![Example screenshot](https://github.com/machester4/vupc/blob/master/screenshot.png?raw=true)
   
   ## Technologies
 * Electron - version 9.0
