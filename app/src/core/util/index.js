@@ -1,16 +1,11 @@
 import { desktopCapturer } from "electron";
 
-export async function captureStream() {
-  const sources = await desktopCapturer.getSources({
-    types: ["screen"],
-  });
-  const source = sources[0];
-  // const { width, height } = remote.screen.getPrimaryDisplay().size;
+export async function getStreamFromScreen(screenID) {
   const stream = await navigator.mediaDevices.getUserMedia({
     audio: false,
     video: {
       mandatory: {
-        chromeMediaSourceId: source.id,
+        chromeMediaSourceId: screenID,
         chromeMediaSource: "desktop",
         // maxWidth: 1280,
         // maxHeight: 800,
@@ -20,6 +15,13 @@ export async function captureStream() {
     },
   });
   return stream;
+}
+
+export async function getAllStreams() {
+  const sources = await desktopCapturer.getSources({
+    types: ["screen"],
+  });
+  return sources;
 }
 
 /**

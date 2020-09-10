@@ -22,6 +22,8 @@ function createWindow() {
   win = new BrowserWindow({
     width: 800,
     height: 600,
+    minWidth: 800,
+    minHeight: 600,
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
@@ -69,7 +71,6 @@ app.on("ready", async () => {
     // Install Vue Devtools
     try {
       await installExtension(VUEJS_DEVTOOLS);
-      console.log(screen.getPrimaryDisplay().workAreaSize);
     } catch (e) {
       console.error("Vue Devtools failed to install:", e.toString());
     }

@@ -8,14 +8,14 @@ import {
   tellToOfferSendSignal,
 } from "../signaling";
 import {
-  captureStream,
+  getStreamFromScreen,
   transformFromPixelsToPercent,
   transformFromPercentToPixels,
 } from "../util";
 
-export async function createOffer() {
+export async function createOffer(screenID) {
   try {
-    const stream = await captureStream();
+    const stream = await getStreamFromScreen(screenID);
     const peerConfig = {
       initiator: true,
       trickle: false,
@@ -46,7 +46,6 @@ export async function createOffer() {
               availWidth: width,
               availHeight: height,
             } = webFrame.context.screen;
-            console.log(width, height);
             const size = {
               width,
               height,

@@ -24,7 +24,8 @@ export default {
   },
   async mounted() {
     try {
-      this.rtcInstance = await createOffer();
+      const screen = this.$route.params.screen;
+      this.rtcInstance = await createOffer(screen);
       this.rtcInstance.onConnect(this.onConnect);
       this.rtcInstance.onConnect(this.onDisconnect);
       this.rtcInstance.onCode(this.onCode);

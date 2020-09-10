@@ -1,7 +1,7 @@
 import io from "socket.io-client";
 
 let socket = null;
-const host = "http://localhost:4000";
+const host = "https://vupc.herokuapp.com";
 
 // Socket signaling events
 const FIND_ANSWER_WITH_CODE = "answer-want-connect";

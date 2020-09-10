@@ -5,22 +5,22 @@
       <Input label="Code" placeholder="ABCDEF" @input="handleChangeCode" />
       <Button text="Connect" @click="handleConnect" />
       <hr />
-      <ButtonLink text="Share screen" @click="handleShare" />
     </div>
+    <StreamSelector />
   </div>
 </template>
 
 <script>
 import Input from "@/components/Input";
 import Button from "@/components/Button";
-import ButtonLink from "@/components/ButtonLink";
+import StreamSelector from "@/components/StreamSelector";
 
 export default {
   name: "Home",
   components: {
     Input,
     Button,
-    ButtonLink,
+    StreamSelector,
   },
   data() {
     return {
@@ -35,9 +35,6 @@ export default {
       if (this.code) {
         this.$router.push({ name: "Remote", params: { code: this.code } });
       }
-    },
-    handleShare() {
-      this.$router.push("share");
     },
   },
 };
