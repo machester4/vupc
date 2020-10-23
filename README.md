@@ -79,7 +79,7 @@ You can download the binaries already compiled, or you can compile a local versi
 List of features ready and TODOs for future development
 * Share screen
 * Mouse click event in host
-  To-do list:
+  ### To-do list:
 * Keyboard events in host
 * Your ideas :)
   
